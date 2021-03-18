@@ -1,0 +1,27 @@
+<div *ngIf="control?.invalid && displayError">
+     <!-- To handle built-in validators messages -->
+      <span class="error_message" *ngIf="control['errors']?.required">
+        {{errorMsg}} is required.
+      </span>
+      <span class="error_message" *ngIf="control['errors'].pattern?.requiredPattern === regexPatterns?.onlyCharValue">
+        {{errorMsg}} {{labels?.ERROR_MESSAGE_ONLY_CHAR_ALLOWED}}
+      </span>
+      <span class="error_message" *ngIf="control['errors'].isPassWrdError   || control['errors'].pattern?.requiredPattern === regexPatterns?.atleastContainOneUpperOrLowerCase">
+          {{errorMsg}} {{labels?.ERROR_MESSAGE_PASSWORD}} {{minimumLength}} and must contains
+          <br>
+          {{labels?.ERROR_MESSAGE_LOWERCASE}}
+          <br>
+          {{labels?.ERROR_MESSAGE_CAPITALLETTERS}}
+          <br>
+          {{labels?.ERROR_MESSAGE_NOUSERNAME}}
+      </span>
+       
+      <span class="error_message" *ngIf="control['errors'].isEmailValid || control['errors'].pattern?.requiredPattern === regexPatterns?.properEmailValidators">
+          {{errorMsg}} {{labels?.ERROR_MESSAGE_INVALID}}
+          <br>
+          {{labels?.ERROR_MESSAGE_EMAILUSERNAME_LENGTH}}
+        </span>
+     
+  </div>
+
+  

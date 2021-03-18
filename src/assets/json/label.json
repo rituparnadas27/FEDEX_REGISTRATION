@@ -1,0 +1,18 @@
+{
+    "LABEL_FIRSTNAME": "FIRST NAME",
+    "LABEL_LASTNAME": "LAST NAME",
+    "LABEL_EMAIL": "E-MAIL ADDRESS",
+    "LABEL_PASSWORD" : "PASSWORD",
+    "LABEL_CONFIRM_PASSWORD" : "Confirm Password",
+    "LABEL_REQUIRED" : "* REQUIRED",
+    "LABEL_SIGNUP_HEADER" : "Sign Up",
+    "LABEL_ASTERIX" : "*",
+    "BUTTON_SIGNUP" : "REGISTER",
+    "ERROR_MESSAGE_PASSWORD" : "  must be greater than ",
+    "ERROR_MESSAGE_LOWERCASE": " • lowercase letters.",
+    "ERROR_MESSAGE_CAPITALLETTERS" :"• Capital letters.",
+    "ERROR_MESSAGE_NOUSERNAME": "• No user's first or last name.",
+    "ERROR_MESSAGE_INVALID" :" is invalid.",
+    "ERROR_MESSAGE_EMAILUSERNAME_LENGTH" :"Sorry, username should be between 3 and 30 chars long. ",
+    "ERROR_MESSAGE_ONLY_CHAR_ALLOWED" : "must be a character."
+}

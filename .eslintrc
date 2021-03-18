@@ -1,0 +1,25 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": { 
+        "no-console": 2,
+        "no-extra-bind" : 2 ,
+        "no-labels" : 2,
+        "no-unused-labels" : 2,
+        "no-empty-function": 0,
+        "prefer-const" : 2,
+        "no-empty" : 2,
+        "no-invalid-regexp" : 2,
+        "no-useless-constructor" : 0,
+        "no-useless-escape" : 0,
+        "no-self-assign" :0
+      }
+  }

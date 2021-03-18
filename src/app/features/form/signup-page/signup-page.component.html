@@ -1,0 +1,69 @@
+<div id="rightContainer" class="rightContainer">
+    <div class="panel panel-default">
+        <div class="contentContainer panel-body formDiv" >
+            <h5>{{labels?.LABEL_SIGNUP_HEADER}}</h5>
+            <form [formGroup]="signUpForm"  class="form-inline"  novalidate>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-xs-12 coldiv">{{labels?.LABEL_REQUIRED}}</div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-xs-12 coldiv">{{labels?.LABEL_FIRSTNAME}} {{labels?.LABEL_ASTERIX}}</div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-xs-12 coldiv">
+                        <input type="text" id="firstName" class="form-control textbox-width" formControlName="firstName"  autocomplete="off">
+                        <app-form-field-validation [displayError]="isFieldValid('firstName')"
+                                         [control]="signUpForm.controls['firstName']" errorMsg="First name">
+                        </app-form-field-validation>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-xs-12 coldiv">{{labels?.LABEL_LASTNAME}} {{labels?.LABEL_ASTERIX}}</div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-xs-12 coldiv">
+                        <input type="text" id="lastName" name="lastName" class="form-control textbox-width"  formControlName="lastName" autocomplete="off">
+                        <app-form-field-validation [displayError]="isFieldValid('lastName')"
+                                         [control]="signUpForm.controls['lastName']" errorMsg="Last name">
+                        </app-form-field-validation>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-xs-12 coldiv">{{labels?.LABEL_EMAIL}} {{labels?.LABEL_ASTERIX}}</div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-xs-12 coldiv">
+                        <input type="text" id="emailId" name="emailId" class="form-control textbox-width"  formControlName="emailId" autocomplete="off">
+                        <app-form-field-validation [displayError]="isFieldValid('emailId')"
+                                        [control]="signUpForm.controls['emailId']" errorMsg="Email address">
+                        </app-form-field-validation>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12 col-xs-12 coldiv">{{labels?.LABEL_PASSWORD}} {{labels?.LABEL_ASTERIX}}</div>
+                </div>
+                <div class="form-group row">
+                     <div class="col-sm-12 col-xs-12 coldiv">
+                        <input type="password" id="password" name="password" class="form-control textbox-width"  formControlName="password" autocomplete="off">
+                        <app-form-field-validation [displayError]="isFieldValid('password')"
+                                        [control]="signUpForm.controls['password']" 
+                                        errorMsg="The password" 
+                                        minimumLength="8" >
+                        </app-form-field-validation>
+                    </div>
+                 </div>
+                
+                 <div class="form-group row">
+                   
+                    <div class="col-sm-12 col-xs-12 coldiv">
+                        <button  type="button" (click)="createAccount()" class=" button btn-primary-generic"
+                         [disabled]="disabled">{{labels?.BUTTON_SIGNUP}}
+                        </button>
+                    </div>
+                 </div>
+                 
+            </form>
+          </div>
+    </div>
+</div>
+

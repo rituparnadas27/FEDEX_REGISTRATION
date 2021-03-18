@@ -1,0 +1,23 @@
+
+footer {
+    background-color: #a134eb;
+    text-align: right;
+    font-size: 12px;
+    padding: 10px 0;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-right: 15px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    footer {
+
+        padding-right: 30px;
+    }
+}

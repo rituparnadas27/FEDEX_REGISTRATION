@@ -1,0 +1,79 @@
+
+.nav > li {
+    float: left;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+.container-fluid:before, .container-fluid:after {
+    content: " ";
+    display: table;
+}
+
+.container-fluid:after {
+    clear: both;
+}
+
+.container-fluid ul li {
+    list-style: none;
+
+}
+.clas-head {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+/*************image *********************/
+.fedex-logo {
+    display: inline-block;
+    background-size: contain;
+    margin: 18px 0 8px 5%;
+    outline: none;
+}
+
+.fedex-logo img {
+    height: 40px;
+    width: 144px;
+    display: inline-block;
+
+}
+
+.fedex-logo span {
+
+    display: block;
+    outline: none;
+}
+
+.header {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.header .navbar-default .navbar-nav > .active > a {
+    background-color: transparent;
+    color: #fff;
+
+}
+
+
+header {
+    margin-bottom: 20px;
+}
+
+.header .navbar {
+    background-color: #a134eb;
+    min-height: auto;
+}
+.header .navbar ul li a {
+    height: 36px;
+    padding: 6px 10px 0 10px;
+    color: #fff;
+}
+
+.header li a {
+    visibility: hidden;
+}
+

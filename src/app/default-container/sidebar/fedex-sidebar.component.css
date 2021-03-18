@@ -1,0 +1,197 @@
+
+ .row {
+    margin-left: -10px;
+    margin-right: -10px; }
+    .row:before, .row:after {
+      content: " ";
+      display: table; }
+    .row:after {
+      clear: both; }
+      
+    .sidebar {
+        border: 1px solid #ddd;
+        margin-top: 61px;
+        background-color:rgb(107, 133, 107);
+    }
+  
+  .content{
+      margin-top: 61px;
+  }
+  
+  .innertab tbody{
+       width: 100%;
+       background-color: rgb(107, 133, 107);
+      
+  }
+  
+  .innertab tbody tr td{
+       background-color: rgb(107, 133, 107);
+       width:100%;
+       padding:5px;
+  }
+  .innertab tbody tr td a{
+      color:#fff
+  }
+  
+  .innertab tbody tr td a:hover{
+      color:#fff;
+      text-decoration: inherit;
+  }
+    
+    #exTab1 .tab-content {
+    color : white;
+    background-color: #fff;
+    
+    background-color:rgb(107, 133, 107);	
+  }
+  
+  .tab-content input {
+      color:#000;
+      margin-bottom:5px;
+  }
+  
+  .clearfix:before, .clearfix:after {
+    content: " ";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+    
+   .panel-heading.green {
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      padding: 10px;
+      background-color: #009286;
+  }
+  .panel-default .panel-title.white {
+      font-size: 13px;
+      color: #fff;
+      font-weight: normal;
+  } 
+  .menuContainer ul > li > ul {
+      
+      display:none;
+  }
+  .menuContainer ul > li > ul.arrow-expanded {
+       background: #fff;
+       display:block;
+  }
+  .menuContainer ul > li  a:hover {
+      background-color:#eee;
+      
+  }
+  
+  
+  .nav-pills > li > a, .nav-pills > li >ul >li > a {
+      border-left: 1px solid #dedede;
+      border-right: 1px solid #dedede;
+      border-bottom: 1px dotted #dedede;
+      border-radius: 0;
+      padding: 5px 5px 5px 10px;
+      margin: 0;
+      color: #4C4C4C;
+      font-size: 12px;
+      line-height: 1.5em;
+      background: transparent;
+      cursor: pointer;
+      text-decoration:none;
+    width: 100%;
+      display:block;
+      outline: none;
+  }
+  
+  .nav-pills > li > a, .nav-pills > li >ul >li > a:hover {
+      color: #4C4C4C;
+      cursor: pointer;
+      text-decoration:none;
+    width: 100%;
+      display:block;
+      background-color:#eee;
+  }
+  .container {
+      width: 1148px !important;
+  }
+    .menuContainer .nav-pills > li > a.arrow-expanded {
+      background: #fff no-repeat 10px 9px;
+      font-weight: bold;
+  }
+  
+   .nav-pills > li > a.arrow {
+      background: #fff no-repeat 10px 9px;
+      font-weight: lighter;
+  }
+   .nav-pills > li > a.arrow .expand {
+       display: none;
+   }
+   .nav-pills > li > a.arrow img {
+       margin-right: 6px;
+       margin-top: -2px;
+   }
+   .nav-pills > li > a.arrow .not-expand {
+       display: inline-block;
+   }
+   .menuContainer .nav-pills > li > a.arrow-expanded.arrow .not-expand {
+       display: none;
+   }
+   .menuContainer .nav-pills > li > a.arrow-expanded.arrow .expand {
+       display: inline-block;
+   }
+  
+  .menuContainer ul > li > ul.arrow-expanded {
+       background: #fff;
+       display:block;
+  }
+  
+  .menuContainer ul > li > ul.arrow-expanded li a:active{
+       font-weight:bold;
+  }
+  
+  .sub-menu-active1 > a:active{
+       font-weight:bold;
+  }
+  .sub-menu-active2 > a:active{
+       font-weight:bold;
+  }
+  .sub-menu-active3 > a:active{
+       font-weight:bold;
+  }
+  
+  
+  .nav-pills > li > a span {
+          display: inline-block;
+      margin-right: 10px;
+  }
+  .nav-pills > li > ul > li > a {
+      padding-left:35px;
+  }
+  .nav-pills > li > ul > li.activeDir > a {
+      font-weight: bold;
+  }
+  .nav-pills li > ul {
+      padding-left: 0;
+      list-style-type: none;
+  }
+  .panel.panel-default.collapseBlock , .panel h4{
+      margin:0;
+  }
+  .panel-heading {
+      height: auto;
+  }
+  
+  .table > thead > th {
+   color:#fff;
+   
+  }
+  
+  .activeSubmenu {
+    font-weight:bold;
+  }
+  
+   .normalSubmenu {
+     font-weight:normal;
+   }
+    
+
+   .active{
+       font-weight: bold;
+   }
+  
